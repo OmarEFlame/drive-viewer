@@ -1,49 +1,52 @@
 name: Sync Google Drive to GitHub Pages
 
 on:
-  # جدولة التشغيل كل 30 دقيقة
   schedule:
     - cron: '*/30 * * * *'
-  # السماح بالتشغيل اليدوي من واجهة GitHub Actions
   workflow_dispatch:
+
+# إضافة صلاحيات ضرورية لأداة المصادقة الرسمية من جوجل
+permissions:
+  contents: write
+  id-token: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # 1. جلب نسخة من الكود الحالي للمستودع
+      # 1. المصادقة مع جوجل باستخدام حساب الخدمة
+      - name: Authenticate with Google
+        uses: 'google-github-actions/auth@v2'
+        with:
+          credentials_json: '${{ secrets.GDRIVE_CREDENTIALS }}'
+
+      # 2. جلب نسخة من الكود الحالي للمستودع
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. إعداد بيئة عمل Node.js لتشغيل السكريبت
+      # 3. إعداد بيئة عمل Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      # 3. جلب قائمة الملفات من Google Drive بشكل تكراري
-      - name: Fetch file list from Google Drive
-        id: get_files
-        uses: Ilshidur/action-google-drive@v1.0.1
-        with:
-          credentials: ${{ secrets.GDRIVE_CREDENTIALS }}
-          source: ${{ secrets.ROOT_FOLDER_ID }}
-          # سيتم حفظ الناتج في ملف مؤقت اسمه gdrive_file_list.json
-          out-path: gdrive_file_list.json
-          recursive: true # لجلب الملفات من المجلدات الفرعية
+      # 4. تثبيت مكتبة جوجل للتعامل مع الـ API
+      - name: Install Google APIs client library
+        run: npm install googleapis
 
-      # 4. تشغيل سكريبت Node.js لمعالجة البيانات وبناء الشجرة
-      - name: Build Tree Data
-        id: build_tree
+      # 5. تشغيل السكريبت المحدث (الذي سيجلب البيانات ويبني الشجرة)
+      - name: Fetch Data and Build Tree
         run: node ./build-tree.js
+        env:
+          # تمرير معرّف المجلد كمتغير للسكريبت
+          ROOT_FOLDER_ID: ${{ secrets.ROOT_FOLDER_ID }}
 
-      # 5. رفع ملف tree_data.json الجديد إلى المستودع
+      # 6. رفع الملف الجديد إلى المستودع (هذه الخطوة لم تتغير)
       - name: Commit and push if changed
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add tree_data.json
-          # التحقق إذا كان هناك تغييرات لعمل commit
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
