@@ -13,12 +13,26 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # 1. المصادقة مع جوجل - أضفنا `id` لهذه الخطوة
+      # 1. المصادقة مع جوجل
       - name: Authenticate with Google
-        id: auth # <--  تمت إضافة هذا السطر
+        id: auth
         uses: 'google-github-actions/auth@v2'
         with:
           credentials_json: '${{ secrets.GDRIVE_CREDENTIALS }}'
+
+      # ******* الخطوة التشخيصية الجديدة *******
+      - name: DEBUG - Check environment
+        run: |
+          echo "--- Debugging Environment ---"
+          echo "1. Listing environment variables related to Google:"
+          env | grep GOOGLE || echo "No GOOGLE env vars found."
+          echo "---"
+          echo "2. Listing all files in the current directory:"
+          ls -la
+          echo "---"
+          echo "3. Explicitly printing the output from the auth step:"
+          echo "The value of 'steps.auth.outputs.credentials_file_path' is: ${{ steps.auth.outputs.credentials_file_path }}"
+          echo "--- End Debugging ---"
 
       # 2. جلب نسخة من الكود الحالي للمستودع
       - name: Checkout repository
@@ -30,16 +44,15 @@ jobs:
         with:
           node-version: '20'
 
-      # 4. تثبيت مكتبة جوجل للتعامل مع الـ API
+      # 4. تثبيت مكتبة جوجل
       - name: Install Google APIs client library
         run: npm install googleapis
 
-      # 5. تشغيل السكريبت - مع تمرير مسار الصلاحيات بشكل صريح
+      # 5. تشغيل السكريبت
       - name: Fetch Data and Build Tree
         run: node ./build-tree.js
         env:
           ROOT_FOLDER_ID: ${{ secrets.ROOT_FOLDER_ID }}
-          # السطر التالي هو التغيير الجوهري، يخبر السكريبت بمكان ملف الصلاحيات
           GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth.outputs.credentials_file_path }}
 
       # 6. رفع الملف الجديد إلى المستودع
