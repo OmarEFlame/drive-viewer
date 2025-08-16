@@ -1,8 +1,55 @@
 {
+  "المكتب الفنى": {
+    "name": "المكتب الفنى",
+    "link": null,
+    "children": {}
+  },
+  "المشتريات": {
+    "name": "المشتريات",
+    "link": null,
+    "children": {}
+  },
+  "ملفات الشركة": {
+    "name": "ملفات الشركة",
+    "link": null,
+    "children": {
+      "السجل التجارى سواعدنا.pdf": {
+        "name": "السجل التجارى سواعدنا.pdf",
+        "link": "https://drive.google.com/file/d/1P6YoajRFFYS0vqeA9-2zrr9dmcFkpNWD/view?usp=drivesdk",
+        "children": {}
+      },
+      "شهادة التأمينات - سواعدنا.pdf": {
+        "name": "شهادة التأمينات - سواعدنا.pdf",
+        "link": "https://drive.google.com/file/d/127zrwl1dsMafoIU36_cvtgG-JYQnTAIM/view?usp=drivesdk",
+        "children": {}
+      }
+    }
+  },
   "إدارة المشروعات": {
     "name": "إدارة المشروعات",
     "link": null,
     "children": {
+      "05- New Templates__ Jul 2025": {
+        "name": "05- New Templates__ Jul 2025",
+        "link": null,
+        "children": {
+          "نموذج شهادة ضمان روافد.docx": {
+            "name": "نموذج شهادة ضمان روافد.docx",
+            "link": "https://docs.google.com/document/d/1eRxU58n8vYFr5W-FN9un_MrhpGQeeixN/edit?usp=drivesdk&ouid=101468448888287753520&rtpof=true&sd=true",
+            "children": {}
+          },
+          "نموذج شهادة ضمان شركة ماس للحدادة والالومنيوم.docx": {
+            "name": "نموذج شهادة ضمان شركة ماس للحدادة والالومنيوم.docx",
+            "link": "https://docs.google.com/document/d/1Rrcl_WI7Ln7G8BGqeg3gBDmycNLpPbmp/edit?usp=drivesdk&ouid=101468448888287753520&rtpof=true&sd=true",
+            "children": {}
+          },
+          "نموذج جدول الدفعات.xlsx": {
+            "name": "نموذج جدول الدفعات.xlsx",
+            "link": "https://docs.google.com/spreadsheets/d/1ledmWxj_JpQkjZIHx3KvDLiyW4vivTJq/edit?usp=drivesdk&ouid=101468448888287753520&rtpof=true&sd=true",
+            "children": {}
+          }
+        }
+      },
       "01- مشاريع قائمة": {
         "name": "01- مشاريع قائمة",
         "link": null,
@@ -27292,36 +27339,5 @@
         }
       }
     }
-  },
-  "05- New Templates__ Jul 2025": {
-    "name": "05- New Templates__ Jul 2025",
-    "link": null,
-    "children": {
-      "نموذج شهادة ضمان روافد.docx": {
-        "name": "نموذج شهادة ضمان روافد.docx",
-        "link": "https://docs.google.com/document/d/1eRxU58n8vYFr5W-FN9un_MrhpGQeeixN/edit?usp=drivesdk&ouid=101468448888287753520&rtpof=true&sd=true",
-        "children": {}
-      },
-      "نموذج شهادة ضمان شركة ماس للحدادة والالومنيوم.docx": {
-        "name": "نموذج شهادة ضمان شركة ماس للحدادة والالومنيوم.docx",
-        "link": "https://docs.google.com/document/d/1Rrcl_WI7Ln7G8BGqeg3gBDmycNLpPbmp/edit?usp=drivesdk&ouid=101468448888287753520&rtpof=true&sd=true",
-        "children": {}
-      },
-      "نموذج جدول الدفعات.xlsx": {
-        "name": "نموذج جدول الدفعات.xlsx",
-        "link": "https://docs.google.com/spreadsheets/d/1ledmWxj_JpQkjZIHx3KvDLiyW4vivTJq/edit?usp=drivesdk&ouid=101468448888287753520&rtpof=true&sd=true",
-        "children": {}
-      }
-    }
-  },
-  "السجل التجارى سواعدنا.pdf": {
-    "name": "السجل التجارى سواعدنا.pdf",
-    "link": "https://drive.google.com/file/d/1P6YoajRFFYS0vqeA9-2zrr9dmcFkpNWD/view?usp=drivesdk",
-    "children": {}
-  },
-  "شهادة التأمينات - سواعدنا.pdf": {
-    "name": "شهادة التأمينات - سواعدنا.pdf",
-    "link": "https://drive.google.com/file/d/127zrwl1dsMafoIU36_cvtgG-JYQnTAIM/view?usp=drivesdk",
-    "children": {}
   }
 }
