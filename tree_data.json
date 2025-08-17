@@ -29,6 +29,11 @@
     "name": "إدارة المشروعات",
     "link": null,
     "children": {
+      "Test": {
+        "name": "Test",
+        "link": null,
+        "children": {}
+      },
       "05- New Templates__ Jul 2025": {
         "name": "05- New Templates__ Jul 2025",
         "link": null,
