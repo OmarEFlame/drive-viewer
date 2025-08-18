@@ -8609,6 +8609,21 @@
     "name": "ملفات الشركة",
     "link": null,
     "children": {
+      "شهادة الضريبة المضافة.pdf": {
+        "name": "شهادة الضريبة المضافة.pdf",
+        "link": "https://drive.google.com/file/d/1rWji5H4dPvOqWq1Bb1gGO0LhRFEq0XGZ/view?usp=drivesdk",
+        "children": {}
+      },
+      "عنوان الوطني  2لشركة سواعدنا.pdf": {
+        "name": "عنوان الوطني  2لشركة سواعدنا.pdf",
+        "link": "https://drive.google.com/file/d/1fTlI0mjMD3Pb_OPBlWXJXHXtoRmZgbuv/view?usp=drivesdk",
+        "children": {}
+      },
+      "خطاب آيبان الاهلي.pdf": {
+        "name": "خطاب آيبان الاهلي.pdf",
+        "link": "https://drive.google.com/file/d/1bQAc_qyORU7NM195-eokHhDWme0z8RfO/view?usp=drivesdk",
+        "children": {}
+      },
       "السجل التجارى سواعدنا.pdf": {
         "name": "السجل التجارى سواعدنا.pdf",
         "link": "https://drive.google.com/file/d/1P6YoajRFFYS0vqeA9-2zrr9dmcFkpNWD/view?usp=drivesdk",
@@ -21124,6 +21139,11 @@
                         "name": "00- Sent",
                         "link": null,
                         "children": {
+                          "تقرير المحتوى المحلي بجدة.pdf": {
+                            "name": "تقرير المحتوى المحلي بجدة.pdf",
+                            "link": "https://drive.google.com/file/d/1VdxoaQC723_l-ioteuXs16lZ_JCtysZ7/view?usp=drivesdk",
+                            "children": {}
+                          },
                           "التقرير النهائي لنسبة المحتوى المحلي-أمن الدولة بجدة.xlsx": {
                             "name": "التقرير النهائي لنسبة المحتوى المحلي-أمن الدولة بجدة.xlsx",
                             "link": "https://docs.google.com/spreadsheets/d/1kMiKYR52JJsr_5VGB4Cj634W0zjhCgeb/edit?usp=drivesdk&ouid=101468448888287753520&rtpof=true&sd=true",
