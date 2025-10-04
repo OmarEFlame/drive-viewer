@@ -14416,6 +14416,11 @@
     "name": "إدارة المشروعات",
     "link": null,
     "children": {
+      "الدفعات المستحقة للمشاريع القائمة.xlsx": {
+        "name": "الدفعات المستحقة للمشاريع القائمة.xlsx",
+        "link": "https://docs.google.com/spreadsheets/d/1uR5WEecR8aw0IZbvCS4Zp3ioULvtk8LR/edit?usp=drivesdk&ouid=101468448888287753520&rtpof=true&sd=true",
+        "children": {}
+      },
       "05- New Templates__ Jul 2025": {
         "name": "05- New Templates__ Jul 2025",
         "link": null,
