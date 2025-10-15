@@ -42102,9 +42102,54 @@
     "name": "ملفات الشركة",
     "link": null,
     "children": {
-      "شهادة الضريبة المضافة.pdf": {
-        "name": "شهادة الضريبة المضافة.pdf",
-        "link": "https://drive.google.com/file/d/1rWji5H4dPvOqWq1Bb1gGO0LhRFEq0XGZ/view?usp=drivesdk",
+      "خطاب ايبان البنك الاهلى.pdf": {
+        "name": "خطاب ايبان البنك الاهلى.pdf",
+        "link": "https://drive.google.com/file/d/1WyojBFejJJ51x9TfeUG-z6EL4DyCwDcw/view?usp=drivesdk",
+        "children": {}
+      },
+      "شهادة التأمينات الاجتماعية.pdf": {
+        "name": "شهادة التأمينات الاجتماعية.pdf",
+        "link": "https://drive.google.com/file/d/1tQxfLNinx58LJpvcxh-bZF-MBQvGDuRZ/view?usp=drivesdk",
+        "children": {}
+      },
+      "شهادة التصنيف.pdf": {
+        "name": "شهادة التصنيف.pdf",
+        "link": "https://drive.google.com/file/d/1mFjVJ9AJsZCG2sUlI9UyHiIKVSrsnGDo/view?usp=drivesdk",
+        "children": {}
+      },
+      "شهادة عضوية الهيئة السعودية للمقاولين.pdf": {
+        "name": "شهادة عضوية الهيئة السعودية للمقاولين.pdf",
+        "link": "https://drive.google.com/file/d/12YZXX3xmqZbnB8HvVQzp-J_xhgxLps1o/view?usp=drivesdk",
+        "children": {}
+      },
+      "شهادة انتساب الغرفة التجارية.pdf": {
+        "name": "شهادة انتساب الغرفة التجارية.pdf",
+        "link": "https://drive.google.com/file/d/1yBqJWjbV8FS3ZvzH-0C4eA3c2HpCSBGc/view?usp=drivesdk",
+        "children": {}
+      },
+      "السجل التجارى.pdf": {
+        "name": "السجل التجارى.pdf",
+        "link": "https://drive.google.com/file/d/18Bz_YUiKFeaoVO8fOS8tHIlX15E_8LPI/view?usp=drivesdk",
+        "children": {}
+      },
+      "شهادة تسجيل ضريبة القيمة المضافة.pdf": {
+        "name": "شهادة تسجيل ضريبة القيمة المضافة.pdf",
+        "link": "https://drive.google.com/file/d/1wFv-xRo_CVKTVlN90EIF6E85OBOFBNRS/view?usp=drivesdk",
+        "children": {}
+      },
+      "شهادة هيئة الزكاة والضريبة.pdf": {
+        "name": "شهادة هيئة الزكاة والضريبة.pdf",
+        "link": "https://drive.google.com/file/d/1TKhf64DcrF-je7xJ8Rqba3sumXJDbJXk/view?usp=drivesdk",
+        "children": {}
+      },
+      "شهادة الالتزام بحماية الاجور.pdf": {
+        "name": "شهادة الالتزام بحماية الاجور.pdf",
+        "link": "https://drive.google.com/file/d/1xiTahZrN4b532KmMl6_Gj63IalsJC5H7/view?usp=drivesdk",
+        "children": {}
+      },
+      "شهادة التوطين.pdf": {
+        "name": "شهادة التوطين.pdf",
+        "link": "https://drive.google.com/file/d/19BTpcl0I3_I8p9QaeCGaGR8pXxlX2Up9/view?usp=drivesdk",
         "children": {}
       },
       "عنوان الوطني  2لشركة سواعدنا.pdf": {
@@ -42112,19 +42157,9 @@
         "link": "https://drive.google.com/file/d/1fTlI0mjMD3Pb_OPBlWXJXHXtoRmZgbuv/view?usp=drivesdk",
         "children": {}
       },
-      "خطاب آيبان الاهلي.pdf": {
-        "name": "خطاب آيبان الاهلي.pdf",
-        "link": "https://drive.google.com/file/d/1bQAc_qyORU7NM195-eokHhDWme0z8RfO/view?usp=drivesdk",
-        "children": {}
-      },
-      "السجل التجارى سواعدنا.pdf": {
-        "name": "السجل التجارى سواعدنا.pdf",
-        "link": "https://drive.google.com/file/d/1P6YoajRFFYS0vqeA9-2zrr9dmcFkpNWD/view?usp=drivesdk",
-        "children": {}
-      },
-      "شهادة التأمينات - سواعدنا.pdf": {
-        "name": "شهادة التأمينات - سواعدنا.pdf",
-        "link": "https://drive.google.com/file/d/127zrwl1dsMafoIU36_cvtgG-JYQnTAIM/view?usp=drivesdk",
+      "شهادات الجودة - سواعدنا للمقاولات العامة.pdf": {
+        "name": "شهادات الجودة - سواعدنا للمقاولات العامة.pdf",
+        "link": "https://drive.google.com/file/d/1FLaDwrOrXbPJu1t8ySWlNm6iv5zl6sxT/view?usp=drivesdk",
         "children": {}
       }
     }
