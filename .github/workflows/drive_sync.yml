@@ -1,6 +1,8 @@
 name: Sync Google Drive to GitHub Pages
 
 on:
+  repository_dispatch:
+    types: [gdrive_change]
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
