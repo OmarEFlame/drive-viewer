@@ -10026,6 +10026,11 @@
         "name": "أرشيف المنافسات المقدم عليها 2026م",
         "link": null,
         "children": {
+          "LICENSE.txt": {
+            "name": "LICENSE.txt",
+            "link": "https://drive.google.com/file/d/1jmJZjrYFOTXiu7KfGgpr4qUzbkYTdRCc/view?usp=drivesdk",
+            "children": {}
+          },
           "07_ يوليو": {
             "name": "07_ يوليو",
             "link": null,
